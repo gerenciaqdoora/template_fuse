@@ -1,0 +1,29 @@
+# No leer secretos de entorno
+config/services.php
+config/database.php
+
+# --- LIBRERÍAS (Lo más pesado) ---
+node_modules/
+vendor/
+
+# --- ARCHIVOS TEMPORALES Y CACHÉ ---
+.git/
+.angular/
+.phpunit.cache/
+storage/framework/
+storage/logs/
+bootstrap/cache/
+
+# --- ARCHIVOS GENERADOS (Compilados) ---
+public/build/
+public/storage/
+dist/
+
+# --- SECRETOS (Seguridad) ---
+.env
+.env.*
+*.pem
+*.key
+.aws/
+storage/*.pem
+auth/*.json
